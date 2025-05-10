@@ -38,10 +38,10 @@ npm install discord.js-selfbot-v13 node-cron moment
 
 3. Buat file `config.json` di direktori yang sama dengan `gm.js`. Contoh struktur file `config.json`:
 
-   ```json
+ ```json
    {
   "schedule": "0 7 * * *",
-  "mode": "auto", // atau mode manual, ubah "auto" jadi "manual"
+  "mode": "auto",
   "accounts": [
     {
       "servers": [
