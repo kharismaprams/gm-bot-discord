@@ -1,0 +1,30 @@
+ {
+  "schedule": "0 7 * * *",
+  "mode": "auto", // atau mode manual, ubah "auto" jadi "manual"
+  "accounts": [
+    {
+      "servers": [
+        {
+          "label": "NAMA PROJECT",
+          "guildId": "SERVER_ID_1",
+          "channels": [
+            {
+              "id": "CHANNEL_ID_1",
+              "message": "ISI PESAN GM"
+            }
+          ] 
+          },
+        {
+          "label": "NAMA PROJECT 2",
+          "guildId": "SERVER_ID_2",
+          "channels": [
+            {
+              "id": "CHANNEL_ID_2",
+              "message": "ISI PESAN GM"
+            }
+          ]
+           }
+         ]
+       }
+     ]
+   }

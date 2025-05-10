@@ -1,0 +1,16 @@
+{
+  "name": "gm-bot-discord",
+  "version": "1.0.0",
+  "description": "Auto GM bot for Discord",
+  "author": "@kharismaprams",
+  "license": "MIT",
+  "main": "gm.js",
+  "scripts": {
+    "start": "node gm.js"
+  },
+  "dependencies": {
+    "discord.js-selfbot-v13": "^1.1.7",
+    "node-cron": "^3.0.2",
+    "moment": "^2.29.1"
+  }
+}
