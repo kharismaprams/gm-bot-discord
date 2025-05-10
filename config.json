@@ -1,6 +1,6 @@
  {
   "schedule": "0 7 * * *",
-  "mode": "auto", // atau mode manual, ubah "auto" jadi "manual"
+  "mode": "auto",
   "accounts": [
     {
       "servers": [
